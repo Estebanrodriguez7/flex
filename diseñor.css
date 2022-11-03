@@ -1,0 +1,25 @@
+.elementos{
+    background-color: aqua;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    color: white;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.elemento1{
+    flex-grow: 1;
+}
+
+
+@media (min-width: 640px){
+    .elementos{
+        color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: end;
+    }
+}
